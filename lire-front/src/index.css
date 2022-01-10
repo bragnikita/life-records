@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*, ::before, ::after {
+    border-style: solid;
+    border-width: 0;
+}
+.n-form-item-label {
+    font-weight: bold;
+}
